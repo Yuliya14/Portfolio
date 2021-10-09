@@ -1,0 +1,51 @@
+.contact {
+   /* height: 100vh;*/
+    background-color: lightcoral;
+}
+
+.containerContact {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactTitle {
+    text-align: center;
+    color: red;
+}
+
+.contactBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.contactContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+    background-color: cornsilk;
+    padding-left: 2%;
+}
+
+.contactSendForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+    background-color: cornsilk;
+    margin: 2%;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.input {
+    margin: 1% 0;
+}

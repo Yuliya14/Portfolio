@@ -1,0 +1,60 @@
+.skills {
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+.containerSkills {
+    align-items: flex-start;
+    background-color: black;
+}
+
+.skillsInner {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsTitle {
+    width: 100%;
+    color: red;
+}
+
+.skillsText {
+    width: 100%;
+    float: left;
+    color: white;
+}
+
+.skillsProgress {
+
+}
+
+.progressInner {
+    margin-bottom: 25px;
+}
+
+.label {
+    color: white;
+}
+
+.number {
+    float: right;
+    color: white;
+}
+
+.background {
+    width: 100%;
+    height: 8px;
+    background-color: red;
+}
+
+.barOpen {
+
+}
+
+.barIn {
+
+}
+
+.style.images {
+}

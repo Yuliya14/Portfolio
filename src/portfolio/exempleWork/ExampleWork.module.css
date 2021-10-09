@@ -1,0 +1,18 @@
+
+.exampleWorkBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 2%;
+    background-color: white;
+}
+img:hover {
+    border: 1px dashed blue;
+}
+.image {
+    width: 100%;
+}

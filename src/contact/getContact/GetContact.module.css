@@ -1,0 +1,12 @@
+.getContact {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+}
