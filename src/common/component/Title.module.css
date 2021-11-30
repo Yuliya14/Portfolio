@@ -1,18 +1,3 @@
-.portfolio {
-    background-color: #fff;
-}
-
-.containerPortfolio {
-    background-color: lavender;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.portfolioTitle {
-    text-align: center;
-    color: red;
-}
 .fontAlt {
     font-family: "Nunito",serif;
     font-size: 40px;
@@ -23,7 +8,7 @@
     padding: 0 0 15px;
     line-height: 1.2;
 }
-.fontAlt::after {
+.fontAlt:after {
     content: "";
     position: absolute;
     width: 40px;
@@ -34,13 +19,4 @@
     bottom: 0;
     margin: auto;
     box-sizing: border-box;
-}
-
-.portfolioBlock {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: #d4ae17;
 }

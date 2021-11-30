@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Contact.module.css'
 import styleContainer from "../common/styles/Container.module.css";
 import {GetContact} from "./getContact/GetContact";
+import {Title} from "../common/component/Title";
 
 export const Contact = () => {
     return (
@@ -9,7 +10,7 @@ export const Contact = () => {
 
             <div className={`${styleContainer.container} ${style.containerContact}`}>
                 <div className={style.contactTitle}>
-                    <span>Contact</span>
+                    <Title title={"My contact"}/>
                     <h3>GET IN TOUCH</h3>
                 </div>
                 <div className={style.contactBlock}>
