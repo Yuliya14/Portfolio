@@ -2,7 +2,6 @@ section {
     padding: 100px 0;
 }
 .sectionAbout {
-    padding: 100px 0;
     position: relative;
 }
 @media (max-width: 991px){
@@ -29,16 +28,14 @@ section {
 
 p {
     margin-top: 0;
-    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 100vh;
+    align-items: center!important;
+    justify-content: center!important;
 }
 
 .imgBox {
@@ -54,8 +51,9 @@ img {
     border-style: none;
 }
 .aboutMe {
+    margin-top: 60px;
     padding-top: 15px;
-    padding-left: 0;
+    padding-left: 40px;
 }
 .aboutMe h3 {
     font-size: 30px;
@@ -81,11 +79,8 @@ img {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
-    flex-wrap: wrap;
 }
 .containerAbout {
-    box-sizing: border-box;
-    flex-shrink: 0;
     width: 100%;
     max-width: 100%;
 }
@@ -112,6 +107,7 @@ label {
     margin-bottom: 0;
     padding-left: 15px;
     font-size: 15px;
+
 }
 .cvBar {
     padding-top: 12px;
@@ -122,7 +118,6 @@ label {
     padding: 0 25px;
     line-height: 46px;
     display: inline-block;
-    background: none;
     border: none;
     font-size: 16px;
     font-weight: 600;
@@ -136,7 +131,7 @@ label {
 a {
     transition: .3s;
 }
-/*.cvTheme :after {
+.cvTheme:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -147,4 +142,7 @@ a {
     transition: all .35s ease;
     background: #1c1d24;
     z-index: -1;
+}
+/*.cvTheme:hover {
+    color: #fff;
 }*/

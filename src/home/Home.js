@@ -52,7 +52,8 @@ export const Home = () => {
                             </div>
                             <div className={style.media}>
                                 <label>LinkedIn</label>
-                                <a href={"https://www.linkedin.com/in/yuliya-dovgun-171668214/"}>yuliya-dovgun</a>
+                                <p><a
+                                    href={"https://www.linkedin.com/in/yuliya-dovgun-171668214/"}>yuliya-dovgun</a></p>
                             </div>
                             <div className={style.media}>
                                 <label>Freelance</label>
@@ -62,7 +63,7 @@ export const Home = () => {
                     </div>
                     <div className={style.cvBar}>
                         <a className={style.cvTheme} href={"img"} download>
-                            "Download CV"
+                            Download CV
                         </a>
                     </div>
                 </div>
