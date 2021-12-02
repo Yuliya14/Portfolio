@@ -1,10 +1,7 @@
-section {
-    padding: 100px 0;
-}
 .sectionAbout {
     position: relative;
 }
-@media (max-width: 991px){
+@media (max-width: 1400px){
     .sectionAbout  {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -20,27 +17,25 @@ section {
     background: #dc965a;
     z-index: -1;
 }
-@media (max-width: 991px) {
+@media (max-width: 1400px) {
     .sectionAbout :after {
         display: none;
     }
 }
-
 p {
     margin-top: 0;
-    margin-block-start: 1em;
     margin-block-end: 1em;
+    text-align: start;
 }
-
 .container {
     display: flex;
     align-items: center!important;
     justify-content: center!important;
+    flex-wrap: wrap;
 }
-
 .imgBox {
+    width: 40%;
     margin: 40px;
-    overflow: hidden;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     background: #fff5ec;
     padding: 10px;
@@ -48,12 +43,14 @@ p {
 img {
     max-width: 100%;
     vertical-align: middle;
-    border-style: none;
 }
 .aboutMe {
-    margin-top: 60px;
+    width: 50%;
     padding-top: 15px;
     padding-left: 40px;
+}
+.aboutMe p {
+    text-align: start;
 }
 .aboutMe h3 {
     font-size: 30px;
@@ -69,45 +66,36 @@ img {
     color: #1c1d24;
     margin-bottom: 20px;
     line-height: 1.2;
-    margin-top: 0;
 }
 .colorTheme {
     color: #dc965a;
 }
 .aboutList {
     padding: 10px 0 15px;
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 .containerAbout {
-    width: 100%;
-    max-width: 100%;
+    width: 350px;
 }
 .media {
     padding: 10px 0;
     line-height: normal;
     display: flex!important;
-    align-items: flex-start;
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
 }
 label {
-    margin: 0;
     color: #090a0c;
     font-weight: 700;
     font-size: 15px;
     flex: 0 0 90px;
     border-right: 1px solid #c1c1c1;
     max-width: 90px;
-    display: inline-block;
     cursor: default;
 }
 .media p {
     margin-bottom: 0;
     padding-left: 15px;
     font-size: 15px;
-
 }
 .cvBar {
     padding-top: 12px;
@@ -118,18 +106,12 @@ label {
     padding: 0 25px;
     line-height: 46px;
     display: inline-block;
-    border: none;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none!important;
-    position: relative;
-    z-index: 1;
     overflow: hidden;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     cursor: pointer!important;
-}
-a {
-    transition: .3s;
 }
 .cvTheme:after {
     content: "";
@@ -143,6 +125,3 @@ a {
     background: #1c1d24;
     z-index: -1;
 }
-/*.cvTheme:hover {
-    color: #fff;
-}*/

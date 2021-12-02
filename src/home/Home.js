@@ -11,10 +11,9 @@ export const Home = () => {
                 </div>
                 <div className={style.aboutMe}>
                     <h3>Yuliya Dovgun</h3>
-                    <h5>I'm
+                    <h5>Hello! I'm {" "}
                         <span className={style.colorTheme}>Front-end (React.JS)</span>
-                        developer based in
-                        <span className={style.colorTheme}>Belarus</span>
+                        {" "} developer
                     </h5>
                     <p>I design and develop services for customers of all sizes,
                         specializing in creating stylish, modern websites,

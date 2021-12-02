@@ -1,5 +1,5 @@
 .skillsSection {
-    padding: 100px 0;
+    padding-top: 100px;
     position: relative;
 }
 .container {
@@ -10,16 +10,11 @@
     margin-left: auto;
 }
 .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y)*-1);
-    margin-right: calc(var(--bs-gutter-x)*-0.5);
-    margin-left: calc(var(--bs-gutter-x)*-0.5);
 }
 .skillsTitle {
     text-align: center;
@@ -95,7 +90,6 @@
     justify-content: center;
     align-items: start;
     margin: 20px 0px;
-    padding: 100px 25px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     background: #fff5ec;
 }

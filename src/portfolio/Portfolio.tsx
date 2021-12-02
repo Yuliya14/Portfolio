@@ -9,7 +9,7 @@ import weather from '../assets/weather3.png'
 export const Portfolio = () => {
     return (
         <section className={style.sectionColorBG}>
-            <div className={style.portfolioContainer}>
+            <div className={style.container}>
                 <div className={style.portfolioContent}>
                     <Title title={"My Portfolio"}/>
                     <p className={style.portfolioDescription}>I create & build beautifully simple user interfaces, and I love what I do</p>
