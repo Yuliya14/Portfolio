@@ -1,5 +1,8 @@
 import React from 'react';
 import style from './Contact.module.css'
+import place from '../assets/place.png'
+import eMail from '../assets/mail.png'
+import phone from '../assets/phone.png'
 
 export const Contact = () => {
     return (
@@ -54,16 +57,15 @@ export const Contact = () => {
                             </div>
                             <div className={style.media}>
                                 <div className={style.icon}>
-                                    <i className={style.tiMap}></i>
+                                    <i className={style.tiMap}><img src = {place}/></i>
                                 </div>
                                 <span className={style.mediaBody}>
-                                    Minsk,<br/>
-                                    Belarus
+                                    Minsk, Belarus
                                 </span>
                             </div>
                             <div className={style.media}>
                                 <div className={style.icon}>
-                                    <i className={style.tiEmail}></i>
+                                    <i className={style.tiEmail}><img src = {eMail}/></i>
                                 </div>
                                 <span className={style.mediaBody}>
                                    julia1997.04.14@mail.ru
@@ -71,7 +73,7 @@ export const Contact = () => {
                             </div>
                             <div className={style.media}>
                                 <div className={style.icon}>
-                                    <i className={style.tiMobile}></i>
+                                    <i className={style.tiMobile}><img src = {phone}/></i>
                                 </div>
                                 <span className={style.mediaBody}>
                                    +375(33)304-11-66
@@ -82,36 +84,6 @@ export const Contact = () => {
                 </div>
             </div>
         </section>
-      /*  <div className={style.contact}>
 
-            <div className={`${styleContainer.container} ${style.containerContact}`}>
-                <div className={style.contactTitle}>
-                    <Title title={"My contact"}/>
-                    <h3>GET IN TOUCH</h3>
-                </div>
-                <div className={style.contactBlock}>
-                    <div className={style.contactContact}>
-                        <GetContact icon={"https://icon-library.com/images/icon-for-address/icon-for-address-5.jpg"}
-                                    title={"Minsk, RB"}/>
-                        <GetContact icon={"https://cdn-icons-png.flaticon.com/512/455/455705.png"}
-                                    title={"+375(33)-111"}/>
-                        <GetContact icon={"https://cdn-icons-png.flaticon.com/128/542/542689.png"}
-                                    title={"xxxxx@mail.ru"}/>
-                        <GetContact icon={"https://cdn-icons-png.flaticon.com/128/2111/2111708.png"}
-                                    title={"Telegram"}/>
-                        <GetContact icon={"https://cdn-icons-png.flaticon.com/128/2111/2111757.png"} title={"Viber"}/>
-                    </div>
-                    <div className={style.contactSendForm}>
-                        <form className={style.contactForm}>
-                                <input className={style.input} placeholder={"Name"}/>
-                                <input className={style.input} placeholder={"Email"}/>
-                                <input className={style.input} placeholder={"Message"}/>
-                            <button>Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </div>*/
     )
 }

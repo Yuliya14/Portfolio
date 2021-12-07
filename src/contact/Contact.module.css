@@ -1,16 +1,12 @@
-.sectionContainer {
-    position: relative;
-}
 section {
     padding: 50px 0;
     display: block;
 }
-@media (max-width: 991px){
-    .sectionContainer  {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+
+.sectionContainer {
+    position: relative;
 }
+
 .sectionContainer:after {
     content: "";
     position: absolute;
@@ -21,41 +17,35 @@ section {
     background: #dc965a;
     z-index: -1;
 }
-@media (max-width: 991px) {
+@media (max-width: 1115px) {
     .sectionContainer :after {
         display: none;
     }
 }
-.container {
-    position: relative;
-    z-index: 2;
-}
+
 .container {
     width: 100%;
     padding-right: 0.75rem;
     padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
+    z-index: 2;
 }
+
 .rowAlignItemsCenter {
-    align-items: center!important;
+    align-items: center !important;
     display: flex;
     flex-wrap: wrap;
 }
-.colMy3 {
-    margin-top: 1rem!important;
-    margin-bottom: 1rem!important;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-}
+
 @media (min-width: 992px) {
     .colMy3 {
         flex: 0 0 auto;
         width: 50%;
     }
 }
+
 .contactForm {
     background: #fff;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
@@ -63,9 +53,11 @@ section {
     overflow: hidden;
     padding: 35px;
 }
+
 .title {
     margin-bottom: 30px;
 }
+
 .title h4 {
     color: #1c1d24;
     font-size: 24px;
@@ -74,6 +66,7 @@ section {
     margin: 0;
     font-weight: 700;
 }
+
 .title h4 {
     color: #1c1d24;
     font-size: 24px;
@@ -83,6 +76,7 @@ section {
     font-weight: 700;
     line-height: 1.2;
 }
+
 .title h4:after {
     content: "";
     position: absolute;
@@ -92,12 +86,15 @@ section {
     height: 3px;
     background: #dc965a;
 }
+
 .title p {
     margin: 15px 0 0;
 }
+
 .fontAlt {
-    font-family: "Nunito",serif;
+    font-family: "Nunito", serif;
 }
+
 .contactForm {
     background: #fff;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
@@ -105,22 +102,33 @@ section {
     overflow: hidden;
     padding: 35px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 1400px) {
+    .colMd6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
 .formGroup {
     margin-bottom: 30px;
     position: relative;
 }
+
 .contactForm .formGroup .formControl {
     border-radius: 0;
-    border: 1px solid rgba(28,29,36,.5);
+    border: 1px solid rgba(28, 29, 36, .5);
     height: 40px;
-    box-shadow: none!important;
+    box-shadow: none !important;
     font-size: 15px;
     color: #1c1d24;
 }
+
 .formControl {
     display: block;
     width: 100%;
@@ -134,8 +142,9 @@ section {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
 input {
     overflow: visible;
     margin: 0;
@@ -146,12 +155,14 @@ input {
     flex: 0 0 auto;
     width: 100%;
 }
+
 textarea {
     overflow: auto;
     resize: vertical;
     margin: 0;
     font-family: inherit;
 }
+
 .btnTheme {
     background: #dc965a;
     color: #fff;
@@ -161,32 +172,35 @@ textarea {
     border: none;
     font-size: 16px;
     font-weight: 600;
-    text-decoration: none!important;
+    text-decoration: none !important;
     z-index: 1;
     overflow: hidden;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
-    cursor: pointer!important;
+    cursor: pointer !important;
 }
+
 .colMyAuto3 {
-    margin-left: auto!important;
-    margin-top: 1rem!important;
-    margin-bottom: 1rem!important;
+    margin-left: auto !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
 }
+
 .media {
-    display: flex!important;
+    display: flex !important;
     align-items: flex-start;
 }
+
 .media .icon {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background: rgba(220,150,90,.1);
     color: #dc965a;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
 }
+
 .mediaBody {
     padding-left: 15px;
     color: #1c1d24;

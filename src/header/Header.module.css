@@ -1,7 +1,17 @@
-.header {
-    height: 80px;
-    background-color: lavenderblush;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.mainHeader {
+
 }
+@media (max-width: 991px){
+    .main-header.fixed-header {
+        border-bottom-color: #1c1d24;
+    }}
+@media (max-width: 991px){
+    .main-header {
+        position: fixed;
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        top: 0;
+        border-bottom: 1px solid hsla(0,0%,100%,.2);
+        box-shadow: 0 0 30px rgb(0 0 0 );
+    }}
