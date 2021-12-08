@@ -53,7 +53,7 @@ export const Contact = () => {
                         <div className={style.contactInfo}>
                             <div className={style.title}>
                                 <h4 className={style.fontAlt}>Get in touch</h4>
-                                <p>Always available for freelancing if the right project comes along, Feel free to contact me.</p>
+                                <p>Always available for freelancing if the right project comes along, <br/> Feel free to contact me.</p>
                             </div>
                             <div className={style.media}>
                                 <div className={style.icon}>

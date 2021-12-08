@@ -1,5 +1,6 @@
 .sectionAbout {
     position: relative;
+    width: 90%;
 }
 @media (max-width: 1400px){
     .sectionAbout  {
@@ -34,7 +35,7 @@ p {
     flex-wrap: wrap;
 }
 .imgBox {
-    width: 40%;
+    width: 37%;
     margin: 40px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     background: #fff5ec;
@@ -45,7 +46,7 @@ img {
     vertical-align: middle;
 }
 .aboutMe {
-    width: 50%;
+    width: 47%;
     padding-top: 15px;
     padding-left: 40px;
 }

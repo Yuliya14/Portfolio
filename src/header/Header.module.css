@@ -2,11 +2,11 @@
 
 }
 @media (max-width: 991px){
-    .main-header.fixed-header {
+    .mainHeader {
         border-bottom-color: #1c1d24;
     }}
 @media (max-width: 991px){
-    .main-header {
+    .mainHeader {
         position: fixed;
         left: 0;
         z-index: 111;
@@ -15,3 +15,21 @@
         border-bottom: 1px solid hsla(0,0%,100%,.2);
         box-shadow: 0 0 30px rgb(0 0 0 );
     }}
+
+@media (min-width: 992px) {
+    .mainHeader {
+        box-shadow: 0 0 30px rgb(0 0 0 );
+        background: #fff;
+    }
+}
+@media (min-width: 992px) {
+    .mainHeader {
+        position: fixed;
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        top: 0;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+        transition: all .3s ease;
+    }
+}

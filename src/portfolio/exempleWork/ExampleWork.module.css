@@ -70,7 +70,7 @@ h5 {
     pointer-events: none;
 }
 
-a {
+.workLink a {
     color: #dc965a;
     transition: .3s;
     text-decoration: none;
