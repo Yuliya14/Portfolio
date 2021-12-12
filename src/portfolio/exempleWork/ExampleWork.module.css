@@ -20,6 +20,11 @@ body {
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     position: relative;
 }
+@media (max-width: 827px) {
+    .example {
+        width: 70%;
+    }
+}
 
 .exampleBox {
     background: #fff;

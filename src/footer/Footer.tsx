@@ -1,16 +1,21 @@
 import React from 'react';
 import style from './Footer.module.css'
-import styleContainer from "../common/styles/Container.module.css";
+import telegram from '../assets/telegramIcon.png'
+import instagram from '../assets/instagramIcon.png'
+import linkedin from '../assets/linkedinIcon.png'
+import mail from '../assets/mailIcon.png'
 
 export const Footer = () => {
     return (
-        <div className={style.footer}>
-            <span>Yuliya Dauhun</span>
+        <footer className={style.footer}>
+            <span>Yuliya Dovgun</span>
                 <div className={style.footerBlock}>
-                    <a href={"#"}><img className={style.images} src={"https://cdn-icons-png.flaticon.com/128/39/39699.png"}/></a>
-                    <a href={"#"}><img className={style.images} src={"https://cdn-icons-png.flaticon.com/128/1384/1384031.png"}/></a>
+                    <a href={"#"}><img className={style.images} src={linkedin}/></a>
+                    <a href={"#"}><img className={style.images} src={telegram}/></a>
+                    <a href={"#"}><img className={style.images} src={instagram}/></a>
+                    <a href={"#"}><img className={style.images} src={mail}/></a>
                 </div>
             <span>© 2021. All rights reserved.</span>
-        </div>
+        </footer>
     )
 }

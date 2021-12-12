@@ -1,13 +1,7 @@
-section {
-    padding: 50px 0;
-    display: block;
-    width: 90%;
-}
-
 .sectionContainer {
     position: relative;
+    padding: 50px;
 }
-
 .sectionContainer:after {
     content: "";
     position: absolute;
@@ -18,12 +12,9 @@ section {
     background: #dc965a;
     z-index: -1;
 }
-@media (max-width: 1115px) {
-    .sectionContainer :after {
-        display: none;
-    }
+.sectionContainer p {
+    text-align: start;
 }
-
 .container {
     width: 100%;
     padding-right: 0.75rem;
@@ -44,6 +35,10 @@ section {
     .colMy3 {
         flex: 0 0 auto;
         width: 50%;
+    }
+    .colMyAuto3 {
+        padding-left: 50px;
+        width: 40%;
     }
 }
 
@@ -66,18 +61,8 @@ section {
     padding: 0 0 15px;
     margin: 0;
     font-weight: 700;
-}
-
-.title h4 {
-    color: #1c1d24;
-    font-size: 24px;
-    position: relative;
-    padding: 0 0 15px;
-    margin: 0;
-    font-weight: 700;
     line-height: 1.2;
 }
-
 .title h4:after {
     content: "";
     position: absolute;
@@ -87,28 +72,19 @@ section {
     height: 3px;
     background: #dc965a;
 }
-
 .title p {
     margin: 15px 0 0;
 }
-
 .fontAlt {
     font-family: "Nunito", serif;
 }
-
-.contactForm {
-    background: #fff;
-    box-shadow: 0 25px 50px -12px rgb(0 0 0);
-    position: relative;
-    overflow: hidden;
-    padding: 35px;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
 }
-
+.colMd6 {
+    width: 50%;
+}
 @media (max-width: 1400px) {
     .colMd6 {
         flex: 0 0 auto;
@@ -179,13 +155,6 @@ textarea {
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     cursor: pointer !important;
 }
-
-.colMyAuto3 {
-    margin-left: auto !important;
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
-}
-
 .media {
     display: flex !important;
     align-items: flex-start;

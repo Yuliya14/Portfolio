@@ -1,5 +1,10 @@
 .sectionColorBG {
     position: relative;
+    padding-bottom: 50px;
+}
+.sectionColorBG p {
+    font-size: 17px;
+    text-align: center;
 }
 .portfolioFilter {
     padding-top: 15px;
@@ -26,6 +31,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 80%;
+    text-align: center;
 }
 .portfolioTitle {
     padding-bottom: 40px;
@@ -39,14 +45,6 @@
 }
 .portfolioDescription {
     width: 80%;
-}
-p {
-    margin: 0;
-    font-size: 17px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    text-align: center;
 }
 .exampleContent {
     display: flex;

@@ -3,6 +3,7 @@ import style from './Nav.module.css'
 
 export const Nav = () => {
     const [active, setActive] = useState(false)
+
     const onClickHandle = (e: MouseEvent<HTMLButtonElement>) => {
         setActive(!active)
     }
