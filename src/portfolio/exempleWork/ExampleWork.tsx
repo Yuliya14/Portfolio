@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './ExampleWork.module.css'
+import style from './ExampleWork.module.scss'
 
 export type ExampleWorkPropsType = {
     name: string
@@ -15,9 +15,9 @@ export const ExampleWork = (props: ExampleWorkPropsType) => {
                         <h5>{props.name}</h5>
                         <span>{props.description}</span>
                     </div>
-                        <a className = {style.galleryLink} href="#" title="click me">
-                            <img className = {style.image} src={props.img}/>
-                        </a>
+                    <a className={style.galleryLink} href="#" title="click me">
+                        <img className={style.image} src={props.img}/>
+                    </a>
                 </div>
             </div>
         </div>

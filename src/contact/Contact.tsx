@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contact.module.css'
+import style from './Contact.module.scss'
 import place from '../assets/place.png'
 import eMail from '../assets/mail.png'
 import phone from '../assets/phone.png'

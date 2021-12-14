@@ -6,16 +6,8 @@
     align-items: center;
     text-align: center;
     position: relative;
-}
-@media  (max-width: 875px) {
-    .skillBlock {
-        width: 170px;
-    }
-}
-@media  (max-width: 550px) {
-    .skillBlock {
-        width: 70%;
-    }
+    @media  (max-width: 875px) { width: 170px;}
+    @media  (max-width: 550px) { width: 70%;}
 }
 .image {
     width: 100px;

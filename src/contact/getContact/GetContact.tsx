@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './GetContact.module.css'
+import style from './GetContact.module.scss'
 
 type GetContactPropsType = {
     icon: string

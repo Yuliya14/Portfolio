@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import {Skill} from "../skill/Skill";
 import {Title} from "../common/component/Title";
 import html from '../assets/html.png'
@@ -22,7 +22,6 @@ export const Skills = () => {
                             direction and expanding them with
                             new technologies</p>
                     </div>
-
                     <div className={style.commonBlock}>
                       <div className={style.smallTitle}>
                           <h4 className={style.fontAlt}>Skills</h4>
@@ -37,7 +36,6 @@ export const Skills = () => {
                           </div>
                       </div>
                     </div>
-
                     <div className={style.commonBlock}>
                         <div className={style.smallTitle}>
                             <h4 className={style.fontAlt}>Education</h4>
@@ -49,12 +47,7 @@ export const Skills = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
             </div>
-
         </section>)
 }

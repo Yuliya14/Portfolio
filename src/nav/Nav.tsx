@@ -1,5 +1,5 @@
 import React, {MouseEvent, useState} from 'react'
-import style from './Nav.module.css'
+import style from './Nav.module.scss'
 
 export const Nav = () => {
     const [active, setActive] = useState(false)

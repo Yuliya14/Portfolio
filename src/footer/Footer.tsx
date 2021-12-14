@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import telegram from '../assets/telegramIcon.png'
 import instagram from '../assets/instagramIcon.png'
 import linkedin from '../assets/linkedinIcon.png'

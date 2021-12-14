@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Portfolio.module.css'
+import style from './Portfolio.module.scss'
 import { ExampleWork } from './exempleWork/ExampleWork';
 import {Title} from "../common/component/Title";
 import socialNetwork from '../assets/socialnetwork.png'
