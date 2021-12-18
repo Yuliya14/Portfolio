@@ -10,7 +10,6 @@ export const Contact = () => {
             <div className={style.container}>
                 <div className={style.rowAlignItemsCenter}>
                     <div className={style.colMy3}>
-                        <div className={style.contactForm}>
                             <div className={style.title}>
                                 <h4 className={style.fontAlt}>Contact us</h4>
                             </div>
@@ -47,7 +46,6 @@ export const Contact = () => {
                                     </div>
                                 </div>
                             </form>
-                        </div>
                     </div>
                     <div className={style.colMyAuto3}>
                         <div className={style.contactInfo}>
@@ -56,24 +54,21 @@ export const Contact = () => {
                                 <p>Always available for freelancing if the right project comes along, <br/> Feel free to contact me.</p>
                             </div>
                             <div className={style.media}>
-                                <div className={style.icon}>
-                                    <i className={style.tiMap}><img src = {place}/></i>
+                                <div className={style.icon}><img src = {place}/>
                                 </div>
                                 <span className={style.mediaBody}>
                                     Minsk, Belarus
                                 </span>
                             </div>
                             <div className={style.media}>
-                                <div className={style.icon}>
-                                    <i className={style.tiEmail}><img src = {eMail}/></i>
+                                <div className={style.icon}><img src = {eMail}/>
                                 </div>
                                 <span className={style.mediaBody}>
                                    julia1997.04.14@mail.ru
                                 </span>
                             </div>
                             <div className={style.media}>
-                                <div className={style.icon}>
-                                    <i className={style.tiMobile}><img src = {phone}/></i>
+                                <div className={style.icon}><img src = {phone}/>
                                 </div>
                                 <span className={style.mediaBody}>
                                    +375(33)304-11-66

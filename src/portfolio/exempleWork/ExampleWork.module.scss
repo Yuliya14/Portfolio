@@ -52,19 +52,6 @@ body {
         position: relative;
         overflow: hidden;
         cursor: zoom-in!important;
-        :hover:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            top: auto;
-            left: 0;
-            right: 0;
-            height: 0;
-            width: 100%;
-            transition: all .55s ease;
-            background: rgba(220,150,90,.8);
-            pointer-events: none;
-        }
         .image {
             transition: .6s;
             margin: auto;

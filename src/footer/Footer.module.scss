@@ -5,15 +5,15 @@
     flex-direction: column;
     align-items: center;
     color: white;
-}
-.footerBlock {
-    display: flex;
-    flex-direction: row;
-    width: 10%;
-    justify-content: space-between;
-}
-.images {
-    width: 20px;
-    height: 20px;
-    padding-left: 10px;
+    .footerBlock {
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+        justify-content: center;
+        .images {
+            width: 20px;
+            height: 20px;
+            padding-left: 10px;
+        }
+    }
 }

@@ -1,7 +1,7 @@
 .sectionAbout {
     position: relative;
     padding-top: 75px;
-    :after {
+    &:after {
         content: "";
         position: absolute;
         bottom: 0;
@@ -26,13 +26,13 @@
                 max-width: 100%;
                 vertical-align: middle;
             }
-            @media (max-width: 992px) { width: 80%;}
+            @media (max-width: 992px) { width: 80%; margin: 0 auto;}
         }
         .aboutMe {
             width: 40%;
             padding-top: 15px;
             padding-left: 40px;
-            @media (max-width: 992px) { width: 80%;}
+            @media (max-width: 992px) { width: 80%; margin: 0 auto; padding-top: 30px;}
             p {
                 text-align: start;
             }
@@ -96,7 +96,7 @@
                     box-shadow: 0 25px 50px -12px rgb(0 0 0);
                     cursor: pointer!important;
                 }
-                :after {
+                &:after {
                     content: "";
                     position: absolute;
                     bottom: 0;
@@ -110,6 +110,6 @@
                 }
             }
         }
-        @media (max-width: 992px) { justify-content: center;}
+        @media (max-width: 991px) { justify-content: center;}
     }
 }
